@@ -1,6 +1,6 @@
 {
     "name": "@vietduc/eslint-config",
-    "version": "0.1.3",
+    "version": "1.0.0",
     "description": "My ESLint config",
     "main": "index.js",
     "scripts": {
