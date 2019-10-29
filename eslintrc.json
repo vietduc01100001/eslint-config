@@ -10,21 +10,16 @@
         "ecmaVersion": 9
     },
     "rules": {
-        "camelcase": [
-            "error",
-            {
-                "properties": "never",
-                "ignoreDestructuring": true
-            }
-        ],
+        "arrow-parens": ["error", "as-needed"],
+        "camelcase": ["error", { "properties": "never", "ignoreDestructuring": true }],
+        "comma-dangle": ["error", "never"],
         "consistent-return": "off",
+        "eol-last": "off",
+        "indent": ["error", 4],
         "no-continue": "off",
-        "no-plusplus": [
-            "error",
-            {
-                "allowForLoopAfterthoughts": true
-            }
-        ],
-        "no-restricted-syntax": "off"
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "no-restricted-syntax": "off",
+        "padding-line-between-statements": ["error", { "blankLine": "always", "prev": "class", "next": "*" }],
+        "prefer-destructuring": ["error", { "array": false }]
     }
 }
