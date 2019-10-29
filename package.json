@@ -1,6 +1,6 @@
 {
     "name": "@vietduc/eslint-config",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "My ESLint config",
     "main": "index.js",
     "scripts": {
@@ -20,15 +20,19 @@
     },
     "homepage": "https://github.com/vietduc01100001/eslint-config#readme",
     "peerDependencies": {
-        "eslint": ">=6.6.0",
-        "eslint-config-airbnb-base": ">=14.0.0",
-        "eslint-plugin-import": ">=2.18.2",
-        "eslint-plugin-jest": ">=23.0.2"
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-prettier": "^6.5.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jest": "^23.0.2",
+        "eslint-plugin-prettier": "^3.1.1",
+        "prettier": "^1.18.2"
     },
     "dependencies": {
-        "eslint": ">=6.6.0",
-        "eslint-config-airbnb-base": ">=14.0.0",
-        "eslint-plugin-import": ">=2.18.2",
-        "eslint-plugin-jest": ">=23.0.2"
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-prettier": "^6.5.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jest": "^23.0.2",
+        "eslint-plugin-prettier": "^3.1.1"
     }
 }
