@@ -1,0 +1,50 @@
+{
+    "plugins": ["import", "jest"],
+    "env": {
+        "es6": true,
+        "node": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 9,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "arrow-parens": ["error", "as-needed"],
+        "camelcase": [
+            "error",
+            {
+                "properties": "never",
+                "ignoreDestructuring": true
+            }
+        ],
+        "comma-dangle": ["error", "never"],
+        "consistent-return": "off",
+        "eol-last": "off",
+        "indent": ["error", 4],
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        "no-restricted-syntax": "off",
+        "padding-line-between-statements": [
+            "error",
+            {
+                "blankLine": "always",
+                "prev": "class",
+                "next": "*"
+            }
+        ],
+        "prefer-destructuring": [
+            "error",
+            {
+                "array": false
+            }
+        ]
+    }
+}

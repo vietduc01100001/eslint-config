@@ -1,0 +1,34 @@
+{
+    "name": "@vietduc/eslint-config",
+    "version": "0.1.0",
+    "description": "My ESLint config",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vietduc01100001/eslint-config.git"
+    },
+    "keywords": [
+        "eslint"
+    ],
+    "author": "vietduc01100001",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vietduc01100001/eslint-config/issues"
+    },
+    "homepage": "https://github.com/vietduc01100001/eslint-config#readme",
+    "peerDependencies": {
+        "eslint": ">=6.6.0",
+        "eslint-config-airbnb-base": ">=14.0.0",
+        "eslint-plugin-import": ">=2.18.2",
+        "eslint-plugin-jest": ">=23.0.2"
+    },
+    "dependencies": {
+        "eslint": ">=6.6.0",
+        "eslint-config-airbnb-base": ">=14.0.0",
+        "eslint-plugin-import": ">=2.18.2",
+        "eslint-plugin-jest": ">=23.0.2"
+    }
+}
