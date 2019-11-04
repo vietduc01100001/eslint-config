@@ -17,3 +17,13 @@ Use this `.eslintrc.json` config file:
     "extends": ["airbnb-base", "plugin:jest/recommended", "@vietduc"]
 }
 ```
+
+Use this `.huskyrc.json` config file to enforce ESLint rules before committing:
+
+```JSON
+{
+    "hooks": {
+        "pre-commit": "node_modules/.bin/eslint ."
+    }
+}
+```
