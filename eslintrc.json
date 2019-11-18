@@ -1,5 +1,7 @@
 {
-    "plugins": ["import"],
+    "plugins": [
+        "import"
+    ],
     "env": {
         "es6": true,
         "node": true,
@@ -7,19 +9,51 @@
     },
     "parserOptions": {
         "sourceType": "module",
-        "ecmaVersion": 9
+        "ecmaVersion": 2020
     },
     "rules": {
-        "arrow-parens": ["error", "as-needed"],
-        "camelcase": ["error", { "properties": "never", "ignoreDestructuring": true }],
-        "comma-dangle": ["error", "never"],
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ],
+        "camelcase": [
+            "error",
+            {
+                "properties": "never",
+                "ignoreDestructuring": true
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
         "consistent-return": "off",
         "eol-last": "off",
-        "indent": ["error", 4],
+        "indent": [
+            "error",
+            4
+        ],
         "no-continue": "off",
-        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
         "no-restricted-syntax": "off",
-        "padding-line-between-statements": ["error", { "blankLine": "always", "prev": "class", "next": "*" }],
-        "prefer-destructuring": ["error", { "array": false }]
+        "padding-line-between-statements": [
+            "error",
+            {
+                "blankLine": "always",
+                "prev": "class",
+                "next": "*"
+            }
+        ],
+        "prefer-destructuring": [
+            "error",
+            {
+                "array": false
+            }
+        ]
     }
 }
