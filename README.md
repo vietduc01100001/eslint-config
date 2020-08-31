@@ -7,7 +7,7 @@ My ESLint config
 Install the dependencies:
 
 ```
-npm install --save-dev eslint @vietduc/eslint-config
+npm install --save-dev eslint husky @vietduc/eslint-config
 ```
 
 Use this `.eslintrc.json` config file:
